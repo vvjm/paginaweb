@@ -12,14 +12,52 @@
 	    <table id="example" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
 	    <thead>
 		<tr class="h3">
+
+<!-- On rows -->
+<!--<tr class="active">...</tr> -->
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+
+<!-- On cells (`td` or `th`) -->
+<tr>
+ <!-- <td class="active">...</td> -->
+  <td class="info"> </td>
+  <td class="info"> </td>
+  <td class="info"> </td>
+  <td class="info"> </td>
+</tr>
+
+
 		    <th class="text-center">Id</th>
-		    <th>Usuario</th>
-		    <th>Password</th>  
+		    <th class="text-center">Usuario</th>
+		    <th class="text-center">Password</th>  
 		    <th class="text-center"><button type="button" class="btn btn-default glyphicon glyphicon-plus btn-success" id='n$id'></button></th>
-		</tr>
+		</tr>	
 	    </thead>
 
+<!-- On rows -->
+<!--<tr class="active">...</tr> -->
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+
+<!-- On cells (`td` or `th`) -->
+<tr>
+ <!-- <td class="active">...</td> -->
+  <td class="info"> </td>
+  <td class="info"> </td>
+  <td class="info"> </td>
+  <td class="info"> </td>
+</tr>
+
 	    <tbody>
+
+
+
+<body background = "images\azul.jpg":center top; background-repeat:no-repeat">
 		    <?php
 include 'conexion.php';
 $query     = "SELECT * FROM usuarios";
@@ -41,10 +79,37 @@ if ($resultado->num_rows > 0) {
     }
 } else {}
 ?>
+
+
+<!-- On rows -->
+<!--<tr class="active">...</tr> -->
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+<tr class="info"> </tr>
+
+<!-- On cells (`td` or `th`) -->
+<tr>
+ <!-- <td class="active">...</td> -->
+  <td class="info"> </td>
+  <td class="info"> </td>
+  <td class="info"> </td>
+  <td class="info"> </td>
+</tr>
+
 	    </tbody>
 	</table>
+
+<body>
+  <a href="cerrarsesion.php"><h3><span>Cerrar Sesi&oacute;n</a>     
+</body>
+	
 	</div>
 	</body>
 	<script  type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
 	<script  type="text/javascript" src="js/conecta.js"></script>
+
+<script  type="text/javascript" src="js/conecta2.js"></script>
+
+
 </html>

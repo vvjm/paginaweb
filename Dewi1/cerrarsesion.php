@@ -1,6 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header('Location:principal.html');
+header('Location:login1.html');
 ?>
-

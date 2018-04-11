@@ -23,7 +23,7 @@
 	$_SESSION['nombre']=$usuariof;
 	}
     //Redirigir al inicio
-    header('Location:index.html');
+    header('Location:principal.php');
     
     } 
     else {
@@ -35,4 +35,3 @@
 <script  type="text/javascript" src="js/conecta.js"></script>   
 </body>
 </html>
-

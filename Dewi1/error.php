@@ -10,7 +10,7 @@
 <?php
   
   echo '<div class="container vertical-center">';
-  echo	'<img src="images/user2.jpg" class="image-circle" alt="userc">'; 
+  echo	'<img src="images/incorrecto.jpg" class="image-circle" alt="userc">'; 
   echo '<p class="text-danger">Usuario Incorrecto</p>';
   echo	'<div class="form-group">';
   echo  '<button class="btn btn-danger btn-lg btn-block" id="regresar">Regresar</button>';

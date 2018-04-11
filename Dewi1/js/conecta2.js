@@ -28,4 +28,19 @@ $(document).ready(function() {
             }
         });
     });
+
+     $("#ingresar").on('click', function(event){
+     
+     
+        var nombre = $("#usuario").val();
+        var contra = $("#password").val();
+      // alert(nombre +' '+ contra );
+       $.ajax({
+            type: "POST",
+            url: "modificar.php",
+            success: function() {
+                window.location.href = "valida.php?usuario=" + nombre + "&password=" + contra ;
+            }
+        });
+    });
 });

@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php
+
   
   echo '<div class="container vertical-center">';
   echo	'<img src="images/incorrecto.jpg" class="image-circle" alt="userc">'; 
